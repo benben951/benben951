@@ -1,74 +1,69 @@
 # Guo Zhaojie
 
-AI application and evaluation engineer focused on Codex-first workflows, regulated knowledge systems, and reproducible ML experiments.
+AI application and evaluation engineer focused on Codex-first workflows, AI output review, regulated knowledge systems, and reproducible ML experimentation.
 
-I build LLM application systems that need to be useful, auditable, and safe enough for real work: Codex-centered automation, RAG and evaluation pipelines, competition-backed experimentation, and risk or compliance tooling.
+I work at the intersection of quality review, evaluation systems, agent workflows, and practical AI applications. My current work includes second-pass review of AI-related outputs, ambiguity resolution, and recurring error-pattern extraction. Outside work, I build public systems around industrial ML experiments, regulated AI workflows, proxy trust checks, and agent benchmarking.
 
-## Focus
+## What I Do
 
-- Agent systems: tool use, workflow routing, human-in-the-loop controls, and multi-agent execution
-- Model evaluation: eval sets, bad-case review, prompt and version comparison, and regression discipline
-- Regulated AI workflows: AML, due diligence, risk evidence retrieval, and trust or safety checks
-- Reproducible ML: leaderboard discipline, ablation tracking, and experiment packaging
+- Review AI or annotation outputs, resolve ambiguous cases, and improve consistency across repeated judgments
+- Turn recurring failure patterns into reusable review criteria and lightweight feature taxonomies
+- Build Codex-centered workflows, evaluation pipelines, and public-safe AI case studies
+- Explore how agent systems behave under success, failure, and timeout conditions instead of only demo-style wins
 
 ## Selected Projects
 
 ### TAAC / KDD Cup 2026 Industrial CVR Case Study
 
-Public-safe case study of an industrial recommendation system built under single-model, latency, and hidden-transfer constraints.
+Public-safe industrial ML case study built under single-model, latency, and hidden-transfer constraints.
 
-- Tracks a unified-token recommendation backbone, pairwise ranking, dense-only EMA, and ablation evidence.
-- Documents the jump from public LB AUC `0.843964` to `0.846275` with controlled iteration rather than leaderboard tricks.
-- Positions competition work as a recruiter-readable industrial ML project, not just a score screenshot.
+- Improved public LB AUC from `0.843964` to `0.846275`
+- Ran 60+ controlled experiments around pairwise ranking, dense-only EMA, and noisy-label transfer
+- Framed competition work as a recruiter-readable industrial recommendation project
 
 Repo: <https://github.com/benben951/taac-2026-industrial-portfolio>
 
 ### Gemma AML Compliance Assistant
 
-Offline RAG and evaluation project for AML and due diligence knowledge workflows.
+Offline RAG and evaluation prototype for AML and due diligence workflows.
 
-- Combines local LLM inference, retrieval grounding, citation-aware responses, and confidence or explainability layers.
-- Includes evaluation notes, due-diligence demo artifacts, and a roadmap for regulated AI use cases.
-- Designed as a privacy-preserving prototype for finance, compliance, and trust-sensitive environments.
+- local LLM inference, retrieval grounding, citation-aware responses
+- emphasis on grounding, uncertainty handling, and regulated-AI use cases
 
 Repo: <https://github.com/benben951/gemma-aml-assistant>
 
 ### LLM Proxy Auditor
 
-Trust-audit tool for OpenAI-compatible proxies before they are connected to coding agents, browser agents, or internal workflows.
+Trust-audit tool for OpenAI-compatible LLM proxies before connecting them to coding agents, browser agents, or internal workflows.
 
-- Checks prompt integrity, model-substitution risk, structured-output stability, and agent readiness.
-- Frames AI safety as an operator problem, not only a policy discussion.
-- Includes deterministic probes, scoring, and report generation.
+- checks prompt integrity, model substitution risk, structured-output stability, and agent readiness
+- includes deterministic probes, CI, and trust-report artifacts
 
 Repo: <https://github.com/benben951/llm-proxy-auditor>
 
-### Hermes Control Plane
+## Current Build
 
-Supporting systems project for mobile-first control of coding workflows through Feishu.
+### Agent Workflow Bench
 
-- Routes tasks across planner, executor, reviewer, and smoke-test modes.
-- Demonstrates orchestration and control-plane thinking even though my day-to-day usage is more directly Codex-centered.
+Currently building an evaluation-first benchmark for planner-executor-reviewer workflows.
 
-Repo: <https://github.com/benben951/hermes-control-plane>
+- records success, failure, and timeout runs
+- compares Codex-only baselines with multi-role workflows
+- captures reviewed artifacts, latency, and failure taxonomy
 
-### Open Source Contribution
+Public release in progress.
 
-Merged regression-test contribution to `recommenders-team/recommenders`.
+## Open Source Contributions
 
-- Added threshold-based ranking-metrics regression coverage for `precision_at_k`, `ndcg_at_k`, and `map_at_k`.
-- Demonstrates external collaboration and accepted contribution quality, not only solo portfolio work.
-
-PR: <https://github.com/recommenders-team/recommenders/pull/2319>
-
-## Selected Experiments
-
-- `kaggle-nemotron-reasoning`: reasoning-evaluation lab for task-family analysis, deterministic baselines, adapter attempts, and failed-run evidence.
+- Merged regression-test contribution to `recommenders-team/recommenders`:
+  <https://github.com/recommenders-team/recommenders/pull/2319>
+- Merged Windows installer contribution to `HKUDS/OpenHarness`:
+  <https://github.com/HKUDS/OpenHarness/pull/118>
 
 ## Stack
 
-Python, SQL, Pandas, NumPy, scikit-learn, LightGBM, XGBoost, PyTorch, RAG, vector databases, Streamlit, FastAPI, Docker, GitHub Actions, LLM APIs, evaluation workflows, and agent orchestration.
+Python, SQL, Pandas, NumPy, scikit-learn, LightGBM, XGBoost, PyTorch, RAG, Streamlit, FastAPI, Docker, GitHub Actions, Codex, Claude Code, evaluation workflows, and agent orchestration.
 
 ## Looking For
 
-Roles in AI application engineering, LLM evaluation, agent workflow systems, GenAI solution engineering, or risk-tech tooling for AML, KYC, due diligence, trust and safety, and enterprise automation.
+Roles in AI application engineering, LLM evaluation, agent workflow systems, GenAI solution engineering, and risk-tech or trust-and-safety AI.
