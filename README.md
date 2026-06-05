@@ -15,10 +15,11 @@ I work at the intersection of quality review, evaluation systems, agent workflow
 
 ### Agent Trust Lab
 
-Risk-sensitive LLM output review system with a static browser review console, synthetic case library, batch trust-report generation, and human-review recommendations.
+Risk-sensitive LLM output evaluation system with a live review console, synthetic eval set, batch trust-report generation, evaluation metrics, and human-review routing.
 
-- Built a 10-case synthetic library across AML, KYC, due diligence, trust and safety, customer support compliance, agent output review, and AI data quality
-- Generates Markdown trust reports and JSON summaries with risk score, trust level, findings, and escalation recommendation
+- Built a 10-case synthetic eval library across AML, KYC, due diligence, trust and safety, customer support compliance, agent output review, and AI data quality
+- Generates Markdown trust reports, JSON summaries, and reproducible evaluation metrics with risk score, trust level, findings, escalation recommendation, and finding distributions
+- Demo metrics: 80% manual-review routing, 40% low-trust cases, average risk score 53.0, and top findings around policy mismatch, missing escalation, unsafe certainty, and unsupported claims
 - Includes CI, GitHub Pages demo, public safety boundary, technical report, and patent-aware release checklist
 
 Demo: <https://benben951.github.io/agent-trust-lab/>
