@@ -76,9 +76,12 @@ Evaluation-first benchmark for planner-executor-reviewer-verifier workflows with
 
 - Provides a model-free simulated pipeline that generates planner note, candidate output, reviewer note, verifier report, and JSON manifest
 - Records success, failure, timeout, latency, pass-rate, verifier status, and failure taxonomy across workflow variants
+- Generates aggregate summary JSON and recruiter-readable Markdown reports from run manifests
 - Includes CI, task specs, workflow specs, rubric judge, and public-safe sample artifacts
 
 Repo: <https://github.com/benben951/agent-workflow-bench>
+
+Sample report: <https://github.com/benben951/agent-workflow-bench/blob/main/examples/simulated_run/summary_report.md>
 
 ## Open Source Contributions
 
