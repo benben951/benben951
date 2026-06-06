@@ -53,9 +53,12 @@ Repo: <https://github.com/benben951/taac-2026-industrial-portfolio>
 Offline RAG and evaluation prototype for AML and due diligence workflows.
 
 - local LLM inference, retrieval grounding, citation-aware responses
-- emphasis on grounding, uncertainty handling, and regulated-AI use cases
+- synthetic AML due-diligence eval cases, public-safe case study, governance checklist, and CI-backed tests
+- sample evaluation snapshot: 5 synthetic scored outputs, 100% risk-point recall, 100% grounding-signal rate, 80% escalation-signal rate, and 20% unsafe-certainty control rate
 
 Repo: <https://github.com/benben951/gemma-aml-assistant>
+
+Case study: <https://github.com/benben951/gemma-aml-assistant/blob/main/docs/CASE_STUDY.md>
 
 ### LLM Proxy Auditor
 
@@ -91,4 +94,3 @@ Python, SQL, Pandas, NumPy, scikit-learn, LightGBM, XGBoost, PyTorch, RAG, Strea
 ## Looking For
 
 Roles in AI application engineering, LLM evaluation, agent workflow systems, GenAI solution engineering, and risk-tech or trust-and-safety AI.
-
