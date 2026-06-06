@@ -8,6 +8,8 @@ I work at the intersection of quality review, evaluation systems, agent workflow
 
 A connected portfolio around LLM output trust, agent workflow trust, proxy infrastructure trust, and regulated-domain AI applications.
 
+Main portfolio hub: <https://github.com/benben951/ai-trust-agent-evaluation-portfolio>
+
 - Live LLM review console: <https://benben951.github.io/agent-trust-lab/>
 - Agent workflow benchmark: <https://github.com/benben951/agent-workflow-bench>
 - LLM proxy trust auditor: <https://github.com/benben951/llm-proxy-auditor>
@@ -89,3 +91,4 @@ Python, SQL, Pandas, NumPy, scikit-learn, LightGBM, XGBoost, PyTorch, RAG, Strea
 ## Looking For
 
 Roles in AI application engineering, LLM evaluation, agent workflow systems, GenAI solution engineering, and risk-tech or trust-and-safety AI.
+
