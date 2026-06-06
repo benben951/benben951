@@ -56,11 +56,13 @@ Repo: <https://github.com/benben951/llm-proxy-auditor>
 
 ### Agent Workflow Bench
 
-Evaluation-first benchmark for planner-executor-reviewer workflows.
+Evaluation-first benchmark for planner-executor-reviewer-verifier workflows with reproducible simulated runs and live Codex-backed run history.
 
-- records success, failure, and timeout runs
-- compares Codex-only baselines with multi-role workflows
-- captures reviewed artifacts, latency, and failure taxonomy
+- Provides a model-free simulated pipeline that generates planner note, candidate output, reviewer note, verifier report, and JSON manifest
+- Records success, failure, timeout, latency, pass-rate, verifier status, and failure taxonomy across workflow variants
+- Includes CI, task specs, workflow specs, rubric judge, and public-safe sample artifacts
+
+Repo: <https://github.com/benben951/agent-workflow-bench>
 
 ## Open Source Contributions
 
