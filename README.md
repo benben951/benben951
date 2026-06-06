@@ -4,6 +4,16 @@ AI application and evaluation engineer focused on risk-sensitive LLM review, Cod
 
 I work at the intersection of quality review, evaluation systems, agent workflows, and practical AI applications. My current work includes second-pass review of AI-related outputs, ambiguity resolution, and recurring error-pattern extraction. Outside work, I build public systems around LLM trust reports, industrial ML experiments, regulated AI workflows, proxy trust checks, and agent benchmarking.
 
+## AI Trust & Agent Evaluation Portfolio
+
+A connected portfolio around LLM output trust, agent workflow trust, proxy infrastructure trust, and regulated-domain AI applications.
+
+- Live LLM review console: <https://benben951.github.io/agent-trust-lab/>
+- Agent workflow benchmark: <https://github.com/benben951/agent-workflow-bench>
+- LLM proxy trust auditor: <https://github.com/benben951/llm-proxy-auditor>
+- Offline AML/RAG assistant: <https://github.com/benben951/gemma-aml-assistant>
+
+
 ## What I Do
 
 - Review AI or annotation outputs, resolve ambiguous cases, and improve consistency across repeated judgments
