@@ -5,6 +5,7 @@ AI application and evaluation engineer focused on Codex-first workflows, AI outp
 I work at the intersection of quality review, evaluation systems, agent workflows, and practical AI applications. My current work includes second-pass review of AI-related outputs, ambiguity resolution, and recurring error-pattern extraction. Outside work, I build public systems around industrial ML experiments, regulated AI workflows, proxy trust checks, and agent benchmarking.
 
 Portfolio hub: <https://github.com/benben951/ai-trust-agent-evaluation-portfolio>
+Recruiter quick links: <https://github.com/benben951/ai-trust-agent-evaluation-portfolio/blob/main/docs/RECRUITER_QUICK_LINKS.md>
 
 ## What I Do
 
