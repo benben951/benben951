@@ -49,8 +49,9 @@ Repo: <https://github.com/benben951/gemma-aml-assistant>
 
 Trust-audit tool for OpenAI-compatible LLM proxies before connecting them to coding agents, browser agents, or internal workflows.
 
-- checks prompt integrity, model substitution risk, structured-output stability, and agent readiness
-- includes deterministic probes, CI, and trust-report artifacts
+- Checks prompt integrity, model-substitution risk, structured-output stability, fake-secret leakage, canary rewriting, and agent readiness
+- Produces Markdown/JSON trust reports with weighted risk scoring and agent-safety recommendations
+- Includes deterministic probes, regression tests, CI, scoring documentation, case study, and report preview screenshot
 
 Repo: <https://github.com/benben951/llm-proxy-auditor>
 
