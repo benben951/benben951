@@ -20,14 +20,16 @@ Recruiter quick links: <https://github.com/benben951/ai-trust-agent-evaluation-p
 
 Risk-sensitive LLM output review and trust-report generation system.
 
-- converts ambiguous LLM outputs into reviewable trust reports, public-safe multi-role workflow traces, and escalation recommendations
-- includes a live demo, 10-case synthetic evaluation set, Markdown/JSON reports, CI, workflow trace, and recruiter-facing review packet
-- emphasizes human-in-the-loop review, unsafe-certainty detection, unsupported-claim checks, and public-safe governance boundaries
+- converts ambiguous LLM/agent outputs into reviewable trust reports, public-safe multi-role workflow traces, and escalation recommendations
+- includes a live demo, 40-case synthetic evaluation set, Markdown/JSON reports, CI, naive-baseline comparison, and recruiter-facing review packet
+- adds a human spot-check protocol/log and regression-tested missing-escalation handling for denied-review phrases
+- emphasizes human-in-the-loop review, unsafe-certainty detection, unsupported-claim checks, review-routing metrics, and public-safe governance boundaries
 
 Repo: <https://github.com/benben951/agent-trust-lab>
 Review packet: <https://github.com/benben951/agent-trust-lab/blob/main/docs/REVIEW_PACKET.md>
-Workflow trace: <https://github.com/benben951/agent-trust-lab/blob/main/examples/workflow_report_agent_tool_failure.md>
-Context engineering: <https://github.com/benben951/agent-trust-lab/blob/main/docs/CONTEXT_ENGINEERING.md>
+Baseline comparison: <https://github.com/benben951/agent-trust-lab/blob/main/examples/baseline_comparison.md>
+Spot-check log: <https://github.com/benben951/agent-trust-lab/blob/main/docs/HUMAN_SPOT_CHECK_LOG.md>
+EMNLP demo draft: <https://github.com/benben951/agent-trust-lab/blob/main/docs/EMNLP_DEMO_DRAFT.md>
 
 ### TAAC / KDD Cup 2026 Industrial CVR Case Study
 
