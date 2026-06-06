@@ -27,6 +27,7 @@ Risk-sensitive LLM output review and trust-report generation system.
 Repo: <https://github.com/benben951/agent-trust-lab>
 Review packet: <https://github.com/benben951/agent-trust-lab/blob/main/docs/REVIEW_PACKET.md>
 Workflow trace: <https://github.com/benben951/agent-trust-lab/blob/main/examples/workflow_report_agent_tool_failure.md>
+Context engineering: <https://github.com/benben951/agent-trust-lab/blob/main/docs/CONTEXT_ENGINEERING.md>
 
 ### TAAC / KDD Cup 2026 Industrial CVR Case Study
 
