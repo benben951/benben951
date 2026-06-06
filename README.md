@@ -19,12 +19,13 @@ Portfolio hub: <https://github.com/benben951/ai-trust-agent-evaluation-portfolio
 
 Risk-sensitive LLM output review and trust-report generation system.
 
-- converts ambiguous LLM outputs into reviewable trust reports and escalation recommendations
-- includes a live demo, 10-case synthetic evaluation set, Markdown/JSON reports, CI, and recruiter-facing review packet
+- converts ambiguous LLM outputs into reviewable trust reports, public-safe multi-role workflow traces, and escalation recommendations
+- includes a live demo, 10-case synthetic evaluation set, Markdown/JSON reports, CI, workflow trace, and recruiter-facing review packet
 - emphasizes human-in-the-loop review, unsafe-certainty detection, unsupported-claim checks, and public-safe governance boundaries
 
 Repo: <https://github.com/benben951/agent-trust-lab>
 Review packet: <https://github.com/benben951/agent-trust-lab/blob/main/docs/REVIEW_PACKET.md>
+Workflow trace: <https://github.com/benben951/agent-trust-lab/blob/main/examples/workflow_report_agent_tool_failure.md>
 
 ### TAAC / KDD Cup 2026 Industrial CVR Case Study
 
