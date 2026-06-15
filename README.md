@@ -2,6 +2,8 @@
 
 LLM evaluation, risk-review AI, and agent workflow systems.
 
+Portfolio website: <https://benben951.github.io/>
+
 I work at the intersection of risk-operation review, AI output quality calibration, human-in-the-loop evaluation, and practical agent workflows. My current work includes second-pass review of AI-related outputs, ambiguity resolution, and recurring error-pattern extraction. Outside work, I build public-safe systems that turn LLM or agent outputs into inspectable reports, metrics, and governance artifacts.
 
 ## Fast Review Path
